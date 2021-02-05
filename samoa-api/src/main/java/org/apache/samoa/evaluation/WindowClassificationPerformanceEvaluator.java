@@ -21,6 +21,7 @@ package org.apache.samoa.evaluation;
 
 import java.util.List;
 
+import com.github.javacliparser.Configurable;
 import org.apache.samoa.instances.Attribute;
 
 import org.apache.samoa.instances.Instance;
@@ -38,7 +39,7 @@ import com.github.javacliparser.IntOption;
  * @version $Revision: 7 $
  */
 public class WindowClassificationPerformanceEvaluator extends AbstractMOAObject implements
-    ClassificationPerformanceEvaluator {
+    ClassificationPerformanceEvaluator, Configurable {
 
   private static final long serialVersionUID = 1L;
 
